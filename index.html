@@ -222,27 +222,25 @@
                 <h1 id="introduction">Introduction</h1>
 <p>Ce mini projet s'effectue dans le cadre de tester la capacité du candidat à concevoir une application web 
 en utilisant les nouvelles technologies : <strong>Angular 6</strong> pour la partie Front-End et <strong>Spring Boot</strong> pour la partie Back-End.</p>
-<h1 id="contexte">Contexte</h1>
-<p>Ce projet est ..... (description du projet)</p>
 <h1 id="acteurs">Acteurs</h1>
-<p>3 acteurs principaux intervient dans cette application:</p>
+<p>3 acteurs principaux interviennent dans cette application:</p>
 <ul>
-<li><strong>Internaute:</strong> (peut voir le site du vitrine sans connexion)</li>
-<li><strong>Utilisateur:</strong> (doit s'obligatoirement authentifié afin d'acheter des produits)</li>
-<li><strong>Administrateur:</strong> (Il gére les produits et les utilisateurs)</li>
+<li><strong>Internaute:</strong> peut voir le site du vitrine sans connexion</li>
+<li><strong>Utilisateur:</strong> doit obligatoirement s'authentifier afin d'acheter des produits</li>
+<li><strong>Administrateur:</strong> gére les produits et les utilisateurs</li>
 </ul>
-<h1 id="architecture-du-plateforme">Architecture du plateforme</h1>
-<p>L'application est composé de 3 composants principaux: 2 applications front en <strong>Angular</strong> pour l'internaute/utilisateur et l'administration
-  et une application Back-End en <strong>Spring Boot</strong> exposant les web services qui vont étre utilisé dans tous la plateforme. </p>
+<h1 id="architecture-de-la-plateforme">Architecture de la plateforme</h1>
+<p>L'application est composé de 3 composants principaux: 2 applications Front-End <strong>Angular</strong> pour l'internaute/utilisateur et l'administration
+  et une application Back-End en <strong>Spring Boot</strong> exposant les web services qui vont étre utilisés dans toute la plateforme. </p>
 <p><img src="architecture.png"  alt="Architecture"/>   </p>
-<h1 id="besoin-fonctionnelle">Besoin fonctionnelle</h1>
+<h1 id="besoins-fonctionnels">Besoins fonctionnels</h1>
 <h2 id="back-office">Back-Office</h2>
 <ul>
-<li>Gestion des produits (List/Ajout/Edit/Delete)<ul>
+<li>Gestion des produits (Liste/Ajout/Edition/Suppression)<ul>
 <li>Le produit est caractérisé par son label,prix et quantité</li>
 </ul>
 </li>
-<li>Gestion des utilisateurs (List/Ajout/Edit/Delete)<ul>
+<li>Gestion des utilisateurs (Liste/Ajout/Edition/Suppression)<ul>
 <li>L'utilisateur est caractérisé par son Nom,Prénom,Email et password (crypté non affiché)</li>
 </ul>
 </li>
@@ -251,7 +249,7 @@ en utilisant les nouvelles technologies : <strong>Angular 6</strong> pour la par
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Pas Besoin d'implémenter la fonctionnalité d'ajout d'un administrateur, 
-vous avez la possibilité d'ajouter l'admin dans la base directement.</p>
+vous avez la possibilité d'ajouter l'admin dans la BDD directement.</p>
 </div>
 <h2 id="front-office-site-vitrine">Front-Office (Site Vitrine)</h2>
 <ul>
@@ -276,7 +274,7 @@ vous avez la possibilité d'ajouter l'admin dans la base directement.</p>
 <a href="https://jwt.io/"><strong>JWT</strong></a></p>
 </div>
 <h1 id="source">Source</h1>
-<p>Vous devez réaliser 3 projets dont 2 projet Front avec Angular 6 et un projet avec Spring Boot.
+<p>Vous devez réaliser 3 projets dont 2 projets Front avec Angular 6 et un projet avec Spring Boot.
 Pour les deux projets front : </p>
 <ul>
 <li>Vous trouvez un projet en angular 6 pour la partie Back-Office que vous éte censé à le cloner et réaliser vos taches.<ul>
@@ -291,14 +289,14 @@ Pour les deux projets front : </p>
 <h1 id="votre-mission">Votre Mission</h1>
 <p>Vous devez réaliser ces taches dans l'ordre:</p>
 <ol>
-<li>Conception (Use case,Class diagram)</li>
+<li>Conception (Use case,Class Diagram)</li>
 <li>Initialisation du projet &amp; Implémentation des modéles (Spring Boot)</li>
 <li>Préparation du formulaire pour l'ajout produit (Front Back-Office)</li>
 <li>Implémentation du WS (Web Service) pour l'ajout produit (Spring Boot)</li>
 <li>Préparation du liste des produit (Front Back-Office)</li>
 <li>Implémentation du WS pour la liste des produit (Spring Boot)</li>
 <li>Suppression d'un produit à partir du liste des produits (Front&amp;Back)</li>
-<li>migration du HTML vers un projet Angular (lien décrit dans la partie <strong>Source</strong>)</li>
+<li>Migration du HTML vers un projet Angular (lien décrit dans la partie <strong>Source</strong>)</li>
 <li>Préparation du liste des produit (Front Site vitrine)</li>
 <li>Inscription d'un utilisateur (Front Site Vitrine)</li>
 <li>Implémentation d'un WS de création de l'utilisateur (Spring Boot)</li>
@@ -311,10 +309,10 @@ Pour les deux projets front : </p>
 </ol>
 <div class="admonition info">
 <p class="admonition-title">Bonus</p>
-<p>Vous pouvez ajouter ces deux taches comme seront un plus</p>
+<p>Vous pouvez ajouter ces deux taches comme un plus</p>
 <ul>
-<li>Ajouter un image à un produit</li>
-<li>Confirmation par mail pour la création d'un nouveau utilisateur</li>
+<li>Ajouter une image à un produit</li>
+<li>Confirmation par mail après la création d'un nouveau utilisateur</li>
 </ul>
 </div>
 <div class="admonition warning">
@@ -322,10 +320,10 @@ Pour les deux projets front : </p>
 <ul>
 <li>
 <p>Vous devez initialement créer 3 répos dans le git (github,bitbucket,gitlab...)
-contenant les trois projets et nous envoyé par mail <strong>recrutement@vayetek.com</strong> pour faire le suivi au fur et au mesure.</p>
+contenant les trois projets et les nous envoyez par mail <strong>recrutement@vayetek.com</strong> pour faire le suivi au fur et à mesure.</p>
 </li>
 <li>
-<p>A la fin de chaque taches vous éte censé de faire un commit indiquant le numéro du tache</p>
+<p>A la fin de chaque taches vous êtes censé faire un commit indiquant le numéro de la tache.</p>
 </li>
 <li>
 <p>Pour la tache numéro 1, vous pouvez faire des captures sur la conceptation et le commiter dans le projet du spring Boot</p>
